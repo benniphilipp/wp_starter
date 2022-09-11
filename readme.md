@@ -19,9 +19,8 @@ Basic Style css
 View Index
 Page Automobile
 
-# Block themens
-
 # SASS
+Basic Setings
 
 # Post Type Gremerator
 https://generatewp.com/post-type/
