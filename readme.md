@@ -1,12 +1,14 @@
 ### WordPress Basic Theme
 
 # Navi
-Add menu Nav Header
+Add menu
 https://developer.wordpress.org/themes/functionality/administration-menus/
 
 # Template Parts
-Header
-Footer
+Section-Header
+Section-Footer
+Section-Content
+Section-Automobile
 
 # Index Page
 Includ Header & Footer Template Parts
@@ -15,20 +17,24 @@ Includ Header & Footer Template Parts
 Supprt Thumbnail
 Basic Style css
 
-# Automobile
-View Index
-Page Automobile
-
 # SASS
-Basic Setings
+Basic Settings
+https://laravel-mix.com/docs/6.0/upgrade
+
+npm run watch
 
 # Post Type Gremerator
+Automobile
 https://generatewp.com/post-type/
 
 # ACF fields Post Type
+Automobile
+Add Field Car Manufacturer
 
+# Automobile
+Single Page Automobile
 
-
-
-
+# link collection
 https://developer.wordpress.org/themes/basics/conditional-tags/
+https://developer.wordpress.org/themes/basics/the-loop/
+
