@@ -1,10 +1,7 @@
-<?php
-/** 
- * Theme header
-*/
-?>
 <!doctype html>
+
 <html <?php language_attributes(); ?>>
+
 
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -12,15 +9,10 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
 
-<?php get_template_part('template-parts/header/section', 'header');?>
+<body <?php body_class(); ?>>
 
-
-
-<?php
-bloginfo( 'name' );
-bloginfo( 'description');
-?>
+    <!-- Import Header Section -->
+    <?php get_template_part('template-parts/header/section', 'header');?>
 
 
