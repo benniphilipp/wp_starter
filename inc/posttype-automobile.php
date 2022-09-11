@@ -36,7 +36,7 @@ function custom_post_type() {
 		'label'                 => __( 'Automobile', 'text_domain' ),
 		'description'           => __( 'Post Type DesAuto Mobile Pagescription', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail' ),
 		'taxonomies'            => array( 'cars' ),
 		'hierarchical'          => false,
 		'public'                => true,
