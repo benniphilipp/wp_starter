@@ -14,12 +14,9 @@
 
 <body>
 
-<header>
-    <?php wp_nav_menu(array(
-            'theme_location' => 'top-menu',
-        ));
-    ?>
-</header>
+<?php get_template_part('template-parts/header/section', 'header');?>
+
+
 
 <?php
 bloginfo( 'name' );
